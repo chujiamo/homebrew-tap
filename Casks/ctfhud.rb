@@ -1,12 +1,10 @@
-
 cask "ctfhud" do
   version "1.9.1"
   sha256 "27f818551440b3cd28f1b1aebafe6547def6b46ddd04563145e311df27ffb30c"
 
   url "https://github.com/chujiamo/ctfhud/releases/download/v#{version}/CTFHUD.v#{version}.Mac.Arm.zip"
-
   name "CTF HUD"
-  desc "Native macOS HUD for CTF competitions"
+  desc "Heads-up display for CTF competitions"
   homepage "https://github.com/chujiamo/ctfhud"
 
   depends_on arch: :arm64
@@ -22,4 +20,3 @@ cask "ctfhud" do
     Privacy & Security > Open Anyway.
   EOS
 end
-
